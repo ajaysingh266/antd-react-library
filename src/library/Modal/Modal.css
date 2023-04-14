@@ -1,0 +1,66 @@
+.modal_container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.App .modal_container {
+    overflow: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: calc(15rem + 15rem);
+    height: auto;
+    padding: 2rem;
+    /* z-index: 11; */
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+
+
+}
+
+.modal_header {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal_header_title {
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal_content {
+
+
+    border-bottom: 1px solid #ddd;
+}
+
+.modal_footer {
+
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+
+
+}
+
+.button {
+    float: left;
+    padding: 0.5rem;
+}
+
+.submit {
+    margin-right: 1rem;
+}

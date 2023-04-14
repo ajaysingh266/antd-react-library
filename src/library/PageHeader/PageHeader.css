@@ -1,0 +1,58 @@
+.wg_pageheader{
+    box-sizing: border-box;
+    margin: 0;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    padding: 16px 24px;
+    background-color: #fff;
+}
+.site_page_header{
+    border: 1px solid rgb(235, 237, 240);
+}
+.wg_pageheader_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.wg_pageheader_heading_left{
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+    overflow: hidden;
+}
+.wg_pageheader_back{
+    margin-right: 16px;
+    font-size: 16px;
+    line-height: 1;
+}
+.wg_pageheader_heading_title{
+    margin-right: 12px;
+    margin-bottom: 0;
+    color: #000000d9;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.wg_pageheader_heading_sub_title{
+    margin-right: 12px;
+    color: #00000073;
+    font-size: 14px;
+    line-height: 1.5715;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.wg_pageheader_back_button{
+    cursor: pointer;
+    
+}
+.wg_pageheader_back_button:hover{
+    color:rgb(64, 169, 255); ;
+}

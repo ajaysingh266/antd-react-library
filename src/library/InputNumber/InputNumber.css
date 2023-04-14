@@ -1,0 +1,41 @@
+.wg_input_number {
+  width: 90px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.wg_input_number_handler_wrap {
+  height: 10%;
+  width: 10%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+  outline: none;
+}
+
+.wg_input_number_focused {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, .2);
+  border-right-width: 1px;
+}
+
+
+
+
+/* .wg_input_number_handler_wrap_up{
+  cursor: not-allowed;
+}       */

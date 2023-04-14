@@ -1,0 +1,36 @@
+.wg_message {
+    height: auto;
+    width: fit-content;
+    background-color: white;
+    position: relative;
+    right: -650px;
+    margin: 8px;
+    /* top: 10px; */
+    transition: top .1s ease-in-out;
+
+}
+/* .wg_message_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px;
+    cursor: pointer;
+} */
+.wg-spin-dot-spin {
+    transform: rotate(0);
+    -webkit-animation: antRotate .6s infinite linear;
+    animation: antRotate .8s infinite linear;
+}
+@keyframes antRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+
+

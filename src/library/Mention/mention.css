@@ -1,0 +1,40 @@
+.wg-mentions {
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    transition: all 0.3s;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+    line-height: 1.5715;
+    white-space: pre-wrap;
+    vertical-align: bottom;
+}
+.wg-mentions > textarea {
+    
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.ant-mentions > textarea, .ant-mentions-measure {
+    min-height: 30px;
+    margin: 0;
+    padding: 4px 11px;
+}
+.rc-textarea{
+    min-height: 10px;
+}

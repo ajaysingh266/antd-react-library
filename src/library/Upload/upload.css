@@ -1,0 +1,55 @@
+.wg-upload {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    outline: 0;
+}
+
+.wg-upload.wg-upload-select {
+    display: inline-block;
+}
+
+a,
+area,
+button,
+[role=button],
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+    touch-action: manipulation;
+}
+
+.wg-upload input[type=file] {
+    cursor: pointer;
+}
+
+.wg-upload-list {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum";
+    line-height: 1.5715;
+}
+
+.wg-upload-list:before {
+    display: table;
+    content: "";
+}
+
+.wg-upload-list:after {
+    display: table;
+    clear: both;
+    content: "";
+}

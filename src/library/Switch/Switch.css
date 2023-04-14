@@ -1,0 +1,56 @@
+.wg-switch {
+    position: relative;
+    min-width: 44px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+
+.wg-switch-checked {
+    background: #1890ff;
+}
+
+.wg-switch-unchecked {
+    background: #797a7c;
+}
+
+.wg-switch-disabled {
+    cursor: not-allowed;
+    opacity: .4;
+}
+
+.wg-switch-checked .wg-switch-handle {
+    left: calc(100% - 20px);
+}
+
+.wg-switch-handle {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    transition: all .2s ease-in-out;
+}
+
+.wg-switch-handle:before {
+    position: absolute;
+    inset: 0;
+    background-color: #fff;
+    border-radius: 9px;
+    content: "";
+}
+
+.wg-switch-checked .wg-switch-inner {
+    margin: 0 25px 0 7px;
+}
+
+.wg-switch-inner {
+    display: block;
+    margin: 0 7px 0 25px;
+    color: #fff;
+    font-size: 12px;
+    transition: margin .2s;
+   
+}

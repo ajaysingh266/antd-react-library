@@ -1,0 +1,42 @@
+/* @import '~antd/dist/antd.css';
+
+.wb-select {
+    width: 200px;
+    margin: o auto;
+    position: relative;
+    user-select: none;
+}
+
+.wb-select .wb-select-btn {
+    padding: 15px 20px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 3px rgba(239, 234, 234, 0.2);
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.wb-select .wb-select-content {
+    position: absolute;
+    top: 110%;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 3px rgba(239, 234, 234, 0.2);
+    font-weight: 500;
+    color: #333;
+
+
+}
+.wb-select .wb-select-content .wb-select-item {
+padding: 10px;
+cursor: pointer;
+width: 180px;
+
+
+}
+.wb-select .wb-select-content .wb-select-item:hover {
+    background: #f4f4f4;
+} */

@@ -1,0 +1,29 @@
+.wg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wb-star {
+    display: flex;
+
+}
+
+.wg-rate {
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+    color: rgb(161, 160, 160);
+    
+}
+.wg-rate:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.wg-rate-disabled{
+    cursor: not-allowed;
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    
+}

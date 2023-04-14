@@ -1,0 +1,123 @@
+.wg_notification {
+    height: auto;
+    width: 29%;
+    background-color: white;
+    position: relative;
+    padding: 0.5rem;
+    top: 5%;
+    right: -65%;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+}
+
+.wg_topright {
+
+    top: 20px;
+    right: -870px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .30s ease all;
+    transition: .30s ease all;
+
+
+}
+
+.wg_top {
+
+    top: 5%;
+    right: -35%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .30s ease all;
+    transition: .30s ease all;
+
+}
+
+.wg_topleft {
+
+    top: 10px;
+    left: 10px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .30s ease all;
+    transition: .30s ease all;
+
+}
+
+.wg_bottom {
+
+    bottom: -300px;
+    right: -35%;
+
+}
+
+.wg_bottomright {
+
+    bottom: -300px;
+    right: -65%;
+
+}
+
+.wg_bottomleft {
+
+    bottom: -300px;
+    right: -5%;
+
+}
+
+
+.wg_notification_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    cursor: pointer;
+    /* border-bottom: 2px solid rgb(56, 212, 235); */
+
+}
+
+.wg_description {
+    margin-left: 90px;
+}
+
+.wg_footer {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.wg-notifi-success{
+   color: green;
+    font-size: x-large;
+}
+.wg-notifi-warning{
+    color:#E38305;
+    font-size: x-large;
+
+}
+.wg-notifi-info{
+    color: #045DD9;
+    font-size: x-large;
+
+}
+.wg-notifi-error{
+    color: #da1313cb;
+    font-size: x-large;
+
+}
+
+.wg-notifi-max{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.wg-notifi-icon{
+    font-size: x-large;
+    color: #045DD9;
+
+}
+
+.wg-notifi-svg{
+   cursor: pointer;
+}
+

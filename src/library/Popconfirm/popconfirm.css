@@ -1,0 +1,22 @@
+.wg-popconfirm-container{
+    width: fit-content;
+    box-shadow: 0 10px 15px -3px slategray;
+    width: 17%;  
+}
+.wg-popconfirm-inner{
+    display: flex;
+    align-items: center;
+}
+.wg-popconfirm-span{
+    color: #c78606;
+    font-size: large;
+    margin-left: 16px;
+}
+.wg-popconfirm-title{
+    margin-left: 8px; 
+}
+.wg-popconfirm-confirm{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 8px;
+}

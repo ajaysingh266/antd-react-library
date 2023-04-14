@@ -1,0 +1,13 @@
+.wg-breadcrumb-container{
+  display: flex;
+  align-items: center;
+}
+.wg-breacrumbitem-main{
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+}
+.span-href{
+  margin-left: 4px;
+}
+

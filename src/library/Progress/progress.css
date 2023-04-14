@@ -1,0 +1,57 @@
+.wg-progress-container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.wg-progress-outer{
+  background-color: grey;
+  width: 160px;
+  height: 16px;
+  margin-right: 12px;
+  border-radius:8px;
+}
+.wg-progress-inner{
+  background-color: #1890FF;
+  height: 100%;
+  border-radius:8px;
+}
+.wg-progress-text  {
+  color: #1890FF;
+}
+
+.circle {
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.square {
+  height: 1rem;
+  width: 1rem;
+}
+
+.fa-circle-check {
+  color: rgb(116, 211, 79);
+}
+
+.fa-circle-xmark {
+  color: rgb(214, 20, 20);
+}
+
+.wg-progress-active {
+  background-color: rgb(103, 209, 103);
+}
+.wg-progress-sucess{
+  background-color: rgb(103, 209, 103);
+}
+
+.wg-progress-sm {
+  height: 16px;
+  padding: 0 7px;
+ }
+
+.wg-progress-lg {
+  height: 16px;
+  padding: 0 7px;
+  background-color: rgb(214, 22, 22);
+}

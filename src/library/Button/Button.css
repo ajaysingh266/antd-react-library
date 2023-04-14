@@ -1,0 +1,68 @@
+.wg_btn {
+    line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    box-shadow: 0 2px #00000004;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #000000d9;
+    border-color: #D9D9D9;
+    background: #fff;
+}
+.wg_btn_primary {
+    color: #fff;
+    border-color: #1890FF;
+    background: #1890FF;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px #0000000b;
+}
+.wg_btn_dashed {
+    color: rgba(0, 0, 0, 0.822);
+    border-color: #1890FF;
+    background: #fff;
+    border: 1px dashed #D9D9D9;
+}
+.wg_btn_text {
+    color: #000000d9;
+    border-color: transparent;
+    background: 0 0;
+    box-shadow: none;
+}
+.wg_btn_link {
+    color: #1890FF;
+    border-color: transparent;
+    background: 0 0;
+    box-shadow: none;
+}
+.wg_btn_sm {
+    height: 24px;
+    padding: 0 7px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.wg_btn_lg {
+    height: 40px;
+    padding: 6.4px 15px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+/* .rounded-full{
+    border-radius: 50%;
+} */
+/* .rounded{
+    border-radius: 20%;
+} */

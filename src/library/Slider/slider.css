@@ -1,0 +1,74 @@
+.wg-slider{
+    box-sizing: border-box;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    height: 12px;
+    margin: 10px 6px;
+    padding: 4px 0;
+    cursor: pointer;
+    touch-action: none;
+}
+.wg-slider-rail {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.wg-slider-track {
+    position: absolute;
+    height: 4px;
+    background-color: #91d5ff;
+    border-radius: 2px;
+    transition: background-color .3s;
+}
+.wg-slider-step {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: 0 0;
+    pointer-events: none;
+}
+.wg-slider-handle{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    margin-top: -5px;
+    background-color: #fff;
+    border: solid 2px #91d5ff;
+    border-radius: 50%;
+    box-shadow: 0;
+    cursor: pointer;
+    transition: border-color .3s,box-shadow .6s,transform .3s cubic-bezier(.18,.89,.32,1.28);
+    transition-property: border-color, box-shadow, transform;
+    transition-duration: 0.3s, 0.6s, 0.3s;
+    transition-timing-function: ease, ease, cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition-delay: 0s, 0s, 0s;
+}
+.wg-slider-handle:focus {
+    border-color: hsl(0deg 0% 0%);;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    box-shadow: 0 0 0 5px rgba(24, 144, 255, .12);
+}
+.wg-slider-handle:after {
+    position: absolute;
+    inset: -6px;
+    content: "";
+}

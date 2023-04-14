@@ -1,0 +1,94 @@
+/* .wg-steps {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    display: flex;
+    width: 100%;
+    font-size: 0;
+    text-align: initial;
+} */
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgb(174, 174, 225);
+    margin-bottom: 32px;
+    /* margin-right: -36px; */
+
+    /* width: 29px;
+    height: 29px;
+    line-height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid blue;
+    cursor: pointer;
+    margin-right: 6px;
+    margin-bottom: 16px; */
+}
+
+.stepWrapper {
+    display: flex;
+
+}
+
+.stepBlock.circleWrapper {
+    padding: 0 20px;
+    position: relative;
+}
+
+/* .selected .circle {
+    color: black;
+    background-color: blue;
+    border: 2px solid transparent;
+} */
+
+.stepBlock:not(:last-child)>.circleWrapper::after {
+    content: "";
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    top: 0px;
+    bottom: 50px;
+    margin: auto;
+    background-color: blue;
+    margin-left: auto;
+
+    z-index: -1;
+
+
+
+
+
+}
+
+/* .stepBlock:not(:last-child)>.circleWrapper::after {
+    height: 3px;
+} */
+
+/* .stepBlock:not(:last-child).selected>.stepBlock:not(:last-child).selected~.stepBlock:not(:last-child) .circleWrapper::after {
+    height: 2px;
+} */
+
+.square {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    padding: 2px;
+}
+
+.cir {
+    background-color: rgb(8, 147, 246);
+
+}
+
+.gre {
+    border: 1px solid gainsboro;
+    color: gainsboro;
+}

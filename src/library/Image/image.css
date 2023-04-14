@@ -1,0 +1,10 @@
+.wg_image_container img{
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+  }
+  
+  .label > img {
+    transform: scale(2);
+    cursor: zoom-out;
+  }

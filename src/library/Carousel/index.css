@@ -1,0 +1,58 @@
+ @import '~antd/dist/antd.css';
+
+
+
+.wrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.frame {
+
+    width: 700px;
+    overflow: hidden;
+}
+
+.box-container {
+    display: flex;
+}
+
+.box {
+    background: #364D79;
+    width: 700px;
+    height: 300px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+.button-2-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-2 {
+    
+   
+    /* background: #999; */
+   
+    cursor: pointer;
+    margin-top: -35px;
+    z-index: 10;
+    
+    
+}
+
+.active {
+    /* background: white; */
+}
+
+   
+

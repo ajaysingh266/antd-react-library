@@ -1,0 +1,29 @@
+.wg-result-svg {
+    margin-top: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.wg-result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wg-result-container-title {
+    font-size: x-large;
+    margin-top: 1rem;
+    color: rgb(150, 146, 146);
+
+}
+
+.wg-result-container-subtitle {
+    margin-top: .5rem;
+    color: rgb(150, 146, 146);
+}
+
+.wg-result-container-extra {
+    margin-top: 1rem;
+}

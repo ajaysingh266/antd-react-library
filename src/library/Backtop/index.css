@@ -1,0 +1,13 @@
+.wg-backtop{
+    position: fixed;
+    bottom: 12rem;
+    right: 12rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: x-large;
+    background-color: rgb(19, 207, 231);
+    border-radius: 5px;
+    color:aliceblue;
+
+}
+

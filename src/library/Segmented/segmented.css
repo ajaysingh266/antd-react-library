@@ -1,0 +1,79 @@
+.wg-segmented {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  display: inline-block;
+  padding: 2px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 2px;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-delay: 5s;
+}
+
+.wg-segmented-group {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.wg-segmented-item-selected {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px -2px rgb(0 0 0 / 5%), 0 1px 4px -1px rgb(0 0 0 / 7%), 0 0 1px 0 rgb(0 0 0 / 8%);
+  color: #262626;
+}
+
+.wg-segmented-item {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-delay: 5s;
+}
+.wg-segmented-item-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.wg-segmented-item-label {
+  min-height: 28px;
+  padding: 0 11px;
+  line-height: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  color: rgb(117, 111, 111);  
+}
+.wg-segmented-item-label:hover{
+  color: black;
+}
+.wg-segmented-disabled{
+  cursor: not-allowed;
+  color: rgb(168, 168, 168);
+  
+}
+.wg-segmented-disabled:hover{
+  color: rgb(168, 168, 168);
+}
+

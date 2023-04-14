@@ -1,0 +1,48 @@
+.wg_circle {
+    border-radius: 50%;
+    display: grid;
+    height: 2rem;
+    width: 2rem;
+    background-color: grey;
+    align-items: center;
+}
+
+.wg_square {
+    background-color: gray;
+    height: 2rem;
+    width: 2rem;
+    align-items: center;
+}
+
+.fa-user {
+    height: 16px;
+    width: 16px;
+    color: #ccc;
+}
+
+.wg_large {
+    font-size: xx-large;
+
+}
+
+.wg_medium {
+    font-size: x-large;
+}
+
+.wg_small {
+    font-size: large;
+}
+
+.wg_default {
+    font-size: larger;
+}
+
+.wg_container {
+    background-color: gray;
+}
+
+.wg {
+    display: flex;
+    align-items: center;
+
+}

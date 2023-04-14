@@ -1,0 +1,80 @@
+.wg-timeline {
+    box-sizing: border-box;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    font-feature-settings: "tnum";
+
+    list-style: none;
+}
+.wg-timeline-container{
+    margin: 1rem;
+}
+
+.wg-timeline-item {
+    position: relative;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.wg-timeline-item-tail {
+    position: absolute;
+    left: 4px;
+    height: calc(100% + 12px);
+    border-left: 2px solid rgba(0, 0, 0, .06);
+
+}
+
+.wg-timeline-item-head {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 100px;
+}
+
+.wg-timeline-item-head-blue {
+    color: #1890ff;
+    border-color: #1890ff;
+}
+
+.wg-timeline-item-head-green {
+    color: #0ceb5a;
+    border-color: #0ceb5a;
+}
+
+.wg-timeline-item-head-red {
+    color: #d93306;
+    border-color: #d93306;
+}
+
+.wg-timeline-item-head-gray {
+    color: #515253;
+    border-color: #515253;
+}
+
+.wg-timeline-item-content {
+    position: relative;
+    top: -7.001px;
+    margin: 0 26px;
+    word-break: break-word;
+}
+
+.anticon-spin {
+    color: #1890ff;
+    border-color: #1890ff;
+    display: inline-block;
+    animation: loadingCircle 1s infinite linear;
+    margin-left: 10px;
+
+}
+
+.timeline-clock-icon {
+    margin-left: -5px;
+    font-size: x-large;
+
+}

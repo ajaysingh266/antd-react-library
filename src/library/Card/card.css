@@ -1,0 +1,35 @@
+.wg-gridcard {
+  display: grid;
+  grid-template-columns: 4fr;
+}
+
+.wg-card-container {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wg-card-size{
+  font-size: small;
+}
+.wg-card-bordered{
+  border: 2px solid black;
+}
+.wg-card-hoverable:hover{
+  box-shadow: 0 10px 15px -3px grey;
+
+}
+.wg-card-span{
+  color:#90A9FF;
+}
+.wg-card-div{
+  display: flex;
+  align-items: center;
+}
+.wg-card-div-content{
+  margin-left: 8px;
+  cursor: pointer;
+}
+.wg-card-child{
+  padding: 8px;
+}

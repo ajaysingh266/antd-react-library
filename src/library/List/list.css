@@ -1,0 +1,40 @@
+.wg-list-border{
+    border: 2px solid gray;
+}
+.wg-list-sizelarge{
+    font-size: x-large;
+}
+.wg-list-sizesmall{
+    font-size:small;
+}
+.wg-list-vertical{
+    height: 80%;
+    width: 75%;
+}
+
+  .wg-listitem-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .wg-listitem-action{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+.wg-listmeta-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.wg-listmeta-main{
+    display: flex;
+    align-items: center;
+}
+.wg-listmeta-title{
+    margin-left: 16px;
+}
+.wg-listmeta-description{
+    margin-left: 48px;
+}

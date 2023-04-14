@@ -1,0 +1,68 @@
+.wg-alert{
+    width: 20%;
+
+}
+.wg-alert-container{
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+.wg-alert-div{
+    display: flex;
+    flex: auto;
+    margin-right: 8px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.wg_ty_success{
+    border:  solid #B7EB8F;
+    border-width: thin;
+    background-color: #F6FFED;
+    padding: 2px;
+    margin: 6px;
+}
+
+.fa-circle-check{
+    background-color: #F6FFED;
+    
+}
+.wg_ty_info{
+    border:  solid #91D5FF;
+    border-width: thin;
+    background-color: #E6F7FF;
+    padding: 2px;
+    margin: 6px;
+}
+.fa-circle-info{
+    color: #89ceee;
+}
+.wg_ty_warn{
+    border:  solid #FFE58F;
+    border-width: thin;
+    background-color: #FFFBE6;
+    padding: 2px;
+    margin: 6px;
+}
+
+.fa-circle-exclamation{
+    color: #f3d05f;
+}
+
+
+.wg_ty_error{
+    border:  solid #FFCCC7;
+    border-width: thin;
+    background-color: #FFF2F0;
+    padding: 2px;
+    margin: 6px;
+}
+.span-x{
+    cursor: pointer;
+}
+.wg-alert-message{
+    margin-left: 12px;
+}
+.wg-alert-action{
+    margin-left: 80px;
+}

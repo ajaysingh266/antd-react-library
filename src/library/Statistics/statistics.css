@@ -1,0 +1,39 @@
+.wg-statistic-container{
+    width: 50%;
+    background-color: slategrey;
+}
+.wg-statistic{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+}
+
+
+
+.wg-statistic-prefix {
+    margin-bottom: 4px;
+    color: #00000073;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.wg-statistic-title{
+    margin-left: 8px;
+}
+
+.wg-statistic-content {
+    color: #000000d9;
+    font-size: 24px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+}
+
+.wg-statistic-content-value {
+    display: inline-block;
+    direction: ltr;
+}

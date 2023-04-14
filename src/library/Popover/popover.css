@@ -1,0 +1,155 @@
+:root {
+    --tooltip-text-color: white;
+    --tooltip-background-color: rgb(139, 136, 136);
+    --tooltip-margin: 30px;
+    --tooltip-arrow-size: 6px;
+}
+.Popover-Wrapper {
+    display: inline-block;
+    position: relative;
+}
+.Popover-container {
+    position: absolute;
+    border-radius: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px;
+    color: var(--tooltip-text-color);
+    background: var(--tooltip-background-color);
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1;
+    z-index: 100;
+    white-space: nowrap;
+}
+.Popover-container::before {
+    content: " ";
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-width: 6px;
+    margin-left: calc(var(--tooltip-arrow-size) * -1);
+}
+.Popover-container.topLeft {
+    top: calc(var(--tooltip-margin) * -3);
+}
+.Popover-container.topLeft::before {
+    left:30%;
+    top: 100%;
+    border-top-color: var(--tooltip-background-color);
+}
+.Popover-container.top {
+    top: calc(var(--tooltip-margin) * -3);
+}
+.Popover-container.top::before {
+    top: 100%;
+    border-top-color: var(--tooltip-background-color);
+}
+.Popover-container.topRight {
+    top: calc(var(--tooltip-margin) * -3);
+}
+.Popover-container.topRight::before {
+    left:70%;
+    top: 100%;
+    border-top-color: var(--tooltip-background-color);
+}
+.Popover-container.rightTop {
+    left: calc(70% + var(--tooltip-margin));
+    top: 50%;
+    transform: translateX(0) translateY(-90%);
+}
+.Popover-container.rightTop::before {
+    left: calc(var(--tooltip-arrow-size) * -1);
+    top: 50%;
+    transform: translateX(0) translateY(200%);
+    border-right-color: var(--tooltip-background-color);
+}
+.Popover-container.right {
+    left: calc(70% + var(--tooltip-margin));
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+}
+.Popover-container.right::before {
+    left: calc(var(--tooltip-arrow-size) * -1);
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+    border-right-color: var(--tooltip-background-color);
+}
+.Popover-container.rightBottom {
+    left: calc(70% + var(--tooltip-margin));
+    top: 50%;
+    transform: translateX(0) translateY(-10%);
+}
+.Popover-container.rightBottom::before {
+    left: calc(var(--tooltip-arrow-size) * -1);
+    top: 50%;
+    transform: translateX(0) translateY(-280%);
+    border-right-color: var(--tooltip-background-color);
+}
+.Popover-container.bottomLeft {
+    bottom: calc(var(--tooltip-margin) * -3);
+}
+.Popover-container.bottomLeft::before {
+    left :30%;
+    bottom: 100%;
+    border-bottom-color: var(--tooltip-background-color);
+}
+.Popover-container.bottom {
+    bottom: calc(var(--tooltip-margin) * -3);
+}
+.Popover-container.bottom::before {
+    bottom: 100%;
+    border-bottom-color: var(--tooltip-background-color);
+}
+.Popover-container.bottomRight {
+    bottom: calc(var(--tooltip-margin) * -3);
+    
+}
+.Popover-container.bottomRight::before {
+    left: 70%;
+    bottom: 100%;
+    border-bottom-color: var(--tooltip-background-color);
+}
+.Popover-container.left {
+    left: auto;
+    right: calc(100% + var(--tooltip-margin));
+    top: 50%;
+    transform: translateX(40%) translateY(-50%);
+}
+.Popover-container.left::before {
+    left: auto;
+    right: calc(var(--tooltip-arrow-size) * -2);
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+    border-left-color: var(--tooltip-background-color);
+}
+.Popover-container.leftTop {
+    left: auto;
+    right: calc(100% + var(--tooltip-margin));
+    top: 50%;
+    transform: translateX(40%) translateY(-90%);
+}
+.Popover-container.leftTop::before {
+    left: auto;
+    right: calc(var(--tooltip-arrow-size) * -2);
+    top: 50%;
+    transform: translateX(0) translateY(200%);
+    border-left-color: var(--tooltip-background-color);
+}
+.Popover-container.leftBottom {
+    left: auto;
+    right: calc(100% + var(--tooltip-margin));
+    top: 50%;
+    transform: translateX(40%) translateY(-5%);
+}
+.Popover-container.leftBottom::before {
+    left: auto;
+    right: calc(var(--tooltip-arrow-size) * -2);
+    top: 50%;
+    transform: translateX(0) translateY(-290%);
+    border-left-color: var(--tooltip-background-color);
+}
+
